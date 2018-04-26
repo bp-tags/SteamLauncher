@@ -6,6 +6,8 @@ using System.Text;
 
 namespace SteamLauncher
 {
+    // Credit for this class goes to https://stackoverflow.com/a/33487494/5020459
+
     public static class NativeMethods
     {
         private static readonly IntPtr INVALID_HANDLE_VALUE = new IntPtr(-1);
